@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculadora {
+    gap: 2rem;
+    border: 1px solid gray;
+    border-color: black;
+}
+
+.cuerpo_calculadora>div {
+    width: 28%;
+
+}
+
+.botones {
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.input {
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+}
+
+.boton_igual {
+    margin-right: 16.7rem;
+    border: none
+}
+
+.boton_igual:hover {
+    background-color: rgb(55, 55, 116)
+}
+
+.boton {
+    font-size: 1.3rem;
+    border: none
+}
